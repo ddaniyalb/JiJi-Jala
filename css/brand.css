@@ -1,0 +1,60 @@
+.brand {
+  width: 100%;
+  max-width: 1336px;
+  height: 100%;
+  max-height: 230px;
+  margin: 20px auto 0 auto;
+  box-sizing: border-box;
+  border: 1px solid rgb(224, 224, 226);
+  border-radius: 16px;
+  background-color: #fff;
+  font-family: var(--font-family-3);
+  overflow: hidden;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.brand-center {
+  width: 100%;
+  height: 100%;
+}
+
+.brand-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.brand-title-text {
+  font-size: 23px;
+  font-family: var(--font-family-3);
+  color: #000000;
+}
+
+.swiper.mybrand {
+  width: 100%;
+  height: 120px;
+}
+
+.swiper.mybrand .swiper-wrapper {
+  align-items: center;
+}
+
+.swiper.mybrand .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  border-left: 1px solid #eee;
+}
+
+.swiper.mybrand .swiper-slide-item img {
+  width: 100%;
+  max-width: 130px;
+  max-height: 110px;
+  object-fit: contain;
+  display: block;
+  margin: auto auto;
+}

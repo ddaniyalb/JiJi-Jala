@@ -1,0 +1,33 @@
+.gallery {
+  width: 100%;
+  max-width: 1330px;
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .gallery-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: nowrap;
+  }
+
+  .gallery-center-img {
+    width: 100%;
+    max-width: 322px;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      display: block;
+      object-fit: cover;
+    }
+  }
+}

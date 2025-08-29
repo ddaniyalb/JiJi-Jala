@@ -1,0 +1,96 @@
+@font-face {
+  font-family: shabnam;
+  font-weight: normal;
+  src: url("../fonts/Shabnam-Light-FD.woff2") format("woff2");
+}
+
+:root {
+  --font-family-5: shabnam;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: none;
+  font-family: var(--font-family-5);
+}
+
+.main {
+  width: 400px;
+  height: 480px;
+  border-radius: 11px;
+  border: 1px solid #e0e0e2;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main .container {
+  padding-top: 20px;
+  .hello {
+    margin-top: 15px;
+  }
+  .hello,
+  .please {
+    color: var(--color-natural-2);
+    font-size: 12px;
+    line-height: 25px;
+  }
+}
+.main .container a .icon {
+  display: flex;
+  justify-content: center;
+  img {
+    margin: 1px auto;
+    width: 100px;
+  }
+}
+
+.main .container {
+  line-height: 30px;
+}
+.main .container .intro {
+  margin-top: 20px;
+  font-size: 19px;
+  font-weight: 700;
+}
+.main .container form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  #email {
+    margin-top: 10px;
+    width: 330px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #19bfd3;
+    caret-color: #19bfd3;
+    padding: 0 20px;
+  }
+  #submit {
+    margin-top: -20px;
+    width: 330px;
+    height: 45px;
+    border-radius: 9px;
+    background-color: #ef4056;
+    color: white;
+  }
+  #email,
+  #submit:focus {
+    outline: none;
+  }
+}
+
+.main .container .terms {
+  font-size: 11px;
+  color: #3f4064;
+  margin-top: 20px;
+  a {
+    text-decoration: none;
+    color: #0083b2;
+  }
+}

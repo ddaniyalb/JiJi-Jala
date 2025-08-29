@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="20" height="20"
+     viewBox="0 0 24 24"
+     style="fill: var(--color-icon-hummber); --color-icon-hummber: rgb(66, 71, 80);">
+  <path fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z" />
+</svg>
